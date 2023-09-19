@@ -1,0 +1,134 @@
+.header h1{
+    color: #000;
+    /* Heading/24/Bold */
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    margin-bottom: 32px;
+}
+
+.header image{
+    width: 704px;
+    height: 407px;
+    flex-shrink: 0;
+    
+}
+
+.header{
+    margin-top: 70px;
+    background: #F1F3FF;
+}
+.services{
+    margin-top: 100px;
+}
+
+.services .services-right h1 {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+}
+
+.services .services-left{
+    margin-left: 100px;
+}
+.navbar{
+    background: #F1F3FF;
+}
+
+.why-us{
+padding-top: 100px;
+padding-bottom: 50px;
+}
+.text{
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+.sewa{
+padding-right: 150px;
+padding-left: 150px;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+.Testimonial .button{
+margin-top: 100px;
+padding-top: 500px;
+}
+
+body {
+position: relative;
+height: 100%;
+}
+
+body {
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+margin: 0;
+padding: 0;
+}
+
+.swiper {
+width: 100%;
+height: 100%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+
+.buttons{
+    position: relative;
+    padding-top: 50px;
+    z-index: 222222;
+    text-align: center;
+    width: 100%;
+
+}
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: black;
+    /* background-color: rgb(35, 171, 35); */
+    
+}
+
+.buttons button:hover{
+    background-color: #5CB85F;
+}
+
+.description{
+    color: white    ;
+}

@@ -1,3 +1,14 @@
+/* Navbar */
+.navbar{
+    background: #F1F3FF;
+}
+
+.img-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+/* Header*/
 .header h1{
     color: #000;
     /* Heading/24/Bold */
@@ -20,6 +31,8 @@
     margin-top: 70px;
     background: #F1F3FF;
 }
+
+/* Services */
 .services{
     margin-top: 100px;
 }
@@ -35,10 +48,8 @@
 .services .services-left{
     margin-left: 100px;
 }
-.navbar{
-    background: #F1F3FF;
-}
 
+/* Why Us */
 .why-us{
 padding-top: 100px;
 padding-bottom: 50px;

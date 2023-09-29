@@ -2,7 +2,6 @@
 .navbar{
     background: #F1F3FF;
 }
-
 .img-logo{
     width: 50px;
     height: 50px;
@@ -17,14 +16,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 36px; /* 150% */
-    margin-bottom: 32px;
 }
 
-.header image{
-    width: 704px;
-    height: 407px;
+.img-header{
+    width: 600px;
+    height: 100%;
     flex-shrink: 0;
-    
 }
 
 .header{
@@ -32,6 +29,11 @@
     background: #F1F3FF;
 }
 
+.navbar-brand{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+}
 /* Services */
 .services{
     margin-top: 100px;
@@ -46,8 +48,14 @@
 }
 
 .services .services-left{
-    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.img-services{
+    width: 1000px;
+    height: 100%;
+}
+
 
 /* Why Us */
 .why-us{
@@ -59,13 +67,32 @@ padding-top: 100px;
 padding-bottom: 50px;
 }
 
+.card{
+    width: 220px;   
+    height: 220px;
+}
+
+@media screen and (max-width : 576px) {
+    .why-us{
+        text-align: center;
+    }
+    .card{
+        width: 350px;
+    }
+}
+/* Mulai Sewa */
 .sewa{
 padding-right: 150px;
 padding-left: 150px;
-padding-top: 100px;
-padding-bottom: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
+@media screen and (max-width : 576px) {
+    .sewa{
+        padding: 10px;
+    }
+}
 .Testimonial .button{
 margin-top: 100px;
 padding-top: 500px;
@@ -83,7 +110,21 @@ color: #000;
 margin: 0;
 padding: 0;
 }
+.faq{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.faq-left{
+    width: 100%;
+    height: 100%;
+}
+.faq-right{
+    width: 100%;
+    height: 100%;
+}
 
+
+/* Swiper */
 .swiper {
 width: 100%;
 height: 100%;
@@ -121,25 +162,41 @@ object-fit: cover;
 
 .buttons{
     position: relative;
-    padding-top: 50px;
+    padding-top: 10px;
     z-index: 222222;
     text-align: center;
     width: 100%;
 
 }
 .buttons button{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
-    border-color: black;
-    /* background-color: rgb(35, 171, 35); */
-    
+    border-color: gray;
 }
 
 .buttons button:hover{
     background-color: #5CB85F;
+    border: none;
 }
 
 .description{
     color: white    ;
+}
+
+.text-footer1{
+    width: 100%;
+    height: 100%;
+}
+.text-footer2{
+    width: 100%;
+    height: 100%;
+}
+.text-footer3{
+    width: 100%;
+    height: 100%;
+}
+.text-footer4{
+    width: 100%;
+    height: 100%;
 }

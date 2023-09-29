@@ -16,61 +16,60 @@
         <body>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
                 <div class="container">
-                    <a href="#" class="navbar-brand">
-                        <img src="image/logo.jpeg" alt="" class="img-logo">
-                    </a>
+                    <a href="" class="navbar-brand"></a>
 
-                    <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navmenu"
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
                     >
-                        <span class="navbar-toggler-icon">
-                            
-                        </span>
+                    <span class="navbar-toggler-icon"> 
+                    </span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navmenu">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="navitem">
-                                <a href="#Services" class="nav-link">Our Services</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="#why" class="nav-link">Why Us</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="#Testimonial" class="nav-link">Testimonial</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="#FAQ" class="nav-link">FAQ</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="#testimonial" class="nav-link"><button class="btn btn-success btn-sm">Register</button></a>
-                            </li>
-                        </ul>
-
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" style="display: inline; width: 60vw;"
+                    aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">BCR</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body" id="navmenu">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="navitem">
+                                    <a href="#Services" class="nav-link">Our Services</a>
+                                </li>
+                                <li class="navitem">
+                                    <a href="#why" class="nav-link">Why Us</a>
+                                </li>   
+                                <li class="navitem">
+                                    <a href="#Testimonial" class="nav-link">Testimonial</a>
+                                </li>
+                                <li class="navitem">
+                                    <a href="#FAQ" class="nav-link">FAQ</a>
+                                </li>
+                                <li class="navitem">
+                                    <a href="#testimonial" class="nav-link"><button class="btn btn-success btn-sm">Register</button></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
         </body>
         <!-- Header -->
         <section class="header">
-                <div class="d-flex">
-                    <div class="row justify-content-center align-items-center h-200">
+                <div class="d-sm-flex d-sm-block">
+                    <div class="row justify-content-lg-center align-items-center h-200 ms-auto">
                         <div class="col-8">
-                            <div>
+                            <div class="text-header">
                                 <h1>
                                     Sewa & Rental Mobil Terbaik di Kawasan (Lokasimu)
                                 </h1>
                                 <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
                                     terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
                                 </p>
-                                <button class="btn btn-success btn-lg">Mulai Sewa Mobil</button>
-                            </div>
+                                <button class="btn btn-success btn-sm">Mulai Sewa Mobil</button>
+                            </div>  
                         </div>
                     </div>
-                    <img class="img-fluid w-50" 
+                    <img class="img-fluid img-header" 
                     src="image/img_car.png" 
                     alt="header">
                 </div>
@@ -78,20 +77,20 @@
         <!-- Our Services -->
         <section id="Services" class="services">
             <div class="container">
-                <div class="d-flex">
-                    <div class="services-left w-50 h-100">
-                        <div class="row justify-content-center align-items-center pt-3 h-200">
+                <div class="d-sm-flex d-sm-block">
+                    <div class="services-left m-5">
+                        <div class="row">
                             <div class="col-12">
                                 <div>
-                                    <img class="img-fluid" 
+                                    <img class="img-fluid img-services" 
                                     src="image/img_service.png" 
                                     alt="header">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="services-right w-50 h-100">
-                        <div class="row pt-5">
+                    <div class="services-right">
+                        <div class="row">
                             <div class="col-11">
                                 <div>
                                     <h1>
@@ -116,15 +115,15 @@
 
         <!-- Why Us -->
         <section id="why">
-            <div class="container ps-5">
+            <div class="container ps-3">
                 <div class="why-us">
                     <h1>Why Us</h1>
                     <p>Mengapa harus pilih Binar Car Rental?</p>
                 </div>
             </div>
             <div class="container">
-                <div class="row justify-content-center align-items-center h-200 gap-4">
-                    <div class="card" style="width: 18rem; height: 13rem;">
+                <div class="row justify-content-center align-items-center gap-3">
+                    <div class="card">
                         <div class="card-body">
                             <img src="image/icon_complete.png" alt="">
                             <h5 class="pt-3 pb-3">Mobil Lengkap</h5>
@@ -132,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem; height: 13rem;">
+                    <div class="card">
                         <div class="card-body">
                             <img src="image/icon_price.png" alt="">
                             <h5 class="pt-3 pb-3">Harga Murah</h5>
@@ -140,7 +139,7 @@
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem; height: 13rem;">
+                    <div class="card">
                         <div class="card-body">
                             <img src="image/icon_24hrs.png" alt="">
                             <h5 class="pt-3 pb-3">Layanan 24 Jam</h5>
@@ -148,7 +147,7 @@
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem; height: 13rem;">
+                    <div class="card">
                         <div class="card-body">
                             <img src="image/icon_professional.png" alt="">
                             <h6 class="pt-3 pb-3">Sopir Profesional</h6>
@@ -174,8 +173,8 @@
                     <div class="swiper-slide"><img src="image/testi.png" alt=""></div>
                     </div>
                     <div class="buttons">
-                        <button class="swiper-next m-4"><img src="image/arrow-left-solid.svg" alt=""></button>
-                        <button class="swiper-prev"><img src="image/arrow-right-solid.svg" alt=""></button>
+                        <button class="swiper-next m-4"><img src="image/left.svg" alt=""></button>
+                        <button class="swiper-prev"><img src="image/right.svg" alt=""></button>
                     </div>
                 </div>
 
@@ -185,13 +184,22 @@
                 <!-- Initialize Swiper -->
                 <script>
                     var swiper = new Swiper(".mySwiper", {
-                    slidesPerView: 3,
+                    slidesPerView: 1,
                     spaceBetween: 30,
                     navigation: {
                         nextEl: ".swiper-next",
                         prevEl: ".swiper-prev",
                     },
-                    
+                    breakpoints: {
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {  
+                                slidesPerView: 3,
+                                spaceBetween: 30,
+                            },
+                    },
                 });
                 </script>
                         
@@ -202,10 +210,10 @@
 
         <!-- Mulai Sewa -->
         <section class="sewa">
-            <div class="container  py-5 bg-primary rounded-4 ">
+            <div class="container py-5 bg-primary rounded-4 ">
                 <div class="d-flex">
                     <div class="row justify-content-center align-items-center h-200">
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <div class="description text-center">
                                 <h1>
                                     Sewa & Rental Mobil Terbaik di Kawasan (Lokasimu)
@@ -213,7 +221,7 @@
                                 <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
                                     terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
                                 </p>
-                                <button class="btn btn-success btn-lg">Mulai Sewa Mobil</button>
+                                <button class="btn btn-success btn-sm">Mulai Sewa Mobil</button>
                             </div>
                         </div>
                     </div>
@@ -222,15 +230,15 @@
         </section>
         
         <!-- FAQ -->
-        <section id="FAQ" class="pt-5">
+        <section id="FAQ" class="faq">
             <div class="container">
-                <div class="d-flex ps-4">
-                    <div class="row">
-                        <div class="left w-50 h-100">
+                <div class="d-sm-flex d-sm-block">
+                        <div class="faq-left ">
                             <h3>Frequently Asked Question </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perspiciatis, rem porro et impedit culpa dolor est nam cupiditate, dicta tempora, esse atque nemo autem. Accusamus omnis culpa voluptas pariatur.</p>
                         </div>
-                        <div class="right w-50 h-100 ">
+
+                        <div class="faq-right ">
                             <div class="accordion pt-2" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -301,28 +309,27 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- footer -->
-        <section class="pt-5">
-            <footer class="p-5 bg-white text-dark position-relative">
+        <section class="footer">
+            <footer class="pt-2 text-dark position-relative">
                 <div class="container">
-                    <div class="d-flex ps-4">
-                        <div class="w-25 h-100">
+                    <div class="d-sm-flex d-sm-block">
+                        <div class="text-footer1">
                                 <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
                                 <p>binarcarrental@gmail.com</p>
                                 <p>081-233-334-808</p>
                         </div>
-                        <div class="w-25 h-100 ps-5">
+                        <div class="text-footer2">
                             <p>Our services</p>
                             <p>Why Us</p>
                             <p>Testimonial</p>
                             <p>FAQ</p>
                         </div>
-                        <div class="w-25 h-100">
+                        <div class="text-footer3 ">
                             <p>Connect with us</p>
                             <p>
                                 <img src="image/icon_facebook.png" alt="">
@@ -332,7 +339,7 @@
                                 <img src="image/icon_twitter.png" alt="">
                             </p>
                         </div>
-                        <div class="w-25 h-100">
+                        <div class="text-footer4">
                             <p>Copyright binar 2023</p>
                         </div>
                     </div>
